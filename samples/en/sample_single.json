@@ -1,0 +1,30 @@
+{
+  "id": "demo_single_001_en",
+  "type": "single",
+  "stem": "In a hypothetical ecosystem study, researchers observe that elevated carbon dioxide levels increase plant growth rates by 15%. What is the most likely primary mechanism behind this effect?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Enhanced water absorption through root systems"
+    },
+    {
+      "id": "B", 
+      "text": "Increased photosynthetic carbon fixation rates"
+    },
+    {
+      "id": "C",
+      "text": "Improved mineral nutrient uptake efficiency"
+    },
+    {
+      "id": "D",
+      "text": "Accelerated cellular respiration processes"
+    }
+  ],
+  "answer": "B",
+  "explanation": "Elevated CO2 levels directly enhance photosynthetic carbon fixation through the Calvin cycle. Plants can process more carbon dioxide into glucose when atmospheric CO2 concentrations increase, leading to higher growth rates. While water and nutrient uptake are important for plant growth, they are not the primary mechanism affected by increased CO2 levels.",
+  "metadata": {
+    "difficulty": "medium",
+    "bloom": "analyze",
+    "estimated_time_sec": 90
+  }
+}

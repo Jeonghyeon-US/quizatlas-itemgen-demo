@@ -1,0 +1,99 @@
+{
+  "id": "demo_set_001_en",
+  "type": "set",
+  "passage": {
+    "title": "Urban Heat Islands and Climate Adaptation",
+    "text": "Urban heat islands (UHIs) occur when metropolitan areas become significantly warmer than surrounding rural areas due to human activities and infrastructure. The phenomenon results from reduced vegetation, increased concrete and asphalt surfaces, and concentrated energy consumption. Cities can experience temperature differences of 2-5°C compared to nearby rural areas, particularly during nighttime hours. This temperature differential affects local weather patterns, increases energy demand for cooling, and can impact human health. Urban planners are implementing various mitigation strategies including green roofs, reflective building materials, and strategic tree planting to reduce UHI effects."
+  },
+  "questions": [
+    {
+      "stem": "According to the passage, what is the primary cause of urban heat islands?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increased industrial pollution in cities"
+        },
+        {
+          "id": "B",
+          "text": "Higher population density in urban areas"
+        },
+        {
+          "id": "C",
+          "text": "Reduced vegetation and increased concrete surfaces"
+        },
+        {
+          "id": "D",
+          "text": "Concentrated automobile emissions"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The passage explicitly states that UHIs result from 'reduced vegetation, increased concrete and asphalt surfaces, and concentrated energy consumption.' While pollution and population density may contribute to urban heat, the passage identifies the primary causes as reduced vegetation and increased impervious surfaces.",
+      "metadata": {
+        "difficulty": "easy",
+        "bloom": "remember",
+        "estimated_time_sec": 90
+      }
+    },
+    {
+      "stem": "Based on the information provided, when are temperature differences between urban and rural areas most pronounced?",
+      "options": [
+        {
+          "id": "A",
+          "text": "During morning hours"
+        },
+        {
+          "id": "B",
+          "text": "During afternoon peak temperatures"
+        },
+        {
+          "id": "C",
+          "text": "During nighttime hours"
+        },
+        {
+          "id": "D",
+          "text": "During seasonal transitions"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The passage specifically mentions that cities experience temperature differences 'particularly during nighttime hours.' This occurs because urban materials retain heat longer than natural surfaces, creating more pronounced temperature differentials at night.",
+      "metadata": {
+        "difficulty": "easy",
+        "bloom": "remember",
+        "estimated_time_sec": 90
+      }
+    },
+    {
+      "stem": "Which mitigation strategy mentioned in the passage would most directly address the primary cause of urban heat islands?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reflective building materials"
+        },
+        {
+          "id": "B",
+          "text": "Strategic tree planting"
+        },
+        {
+          "id": "C",
+          "text": "Green roofs"
+        },
+        {
+          "id": "D",
+          "text": "All strategies address the primary cause equally"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Since the primary cause identified is 'reduced vegetation,' strategic tree planting most directly addresses this by increasing vegetation in urban areas. While reflective materials and green roofs help reduce heat absorption, tree planting specifically counteracts the vegetation loss that is a primary cause of UHIs.",
+      "metadata": {
+        "difficulty": "medium",
+        "bloom": "analyze",
+        "estimated_time_sec": 120
+      }
+    }
+  ],
+  "metadata": {
+    "difficulty": "medium",
+    "bloom": "understand",
+    "estimated_time_sec": 300
+  }
+}

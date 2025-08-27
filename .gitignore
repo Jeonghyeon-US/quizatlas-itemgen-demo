@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Private/Local files
+CLAUDE.md
+*.private.*
+.local/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Assets (screenshots will be added by users)
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+assets/*.gif
+
+# Temporary files
+*.tmp
+temp/
+tmp/

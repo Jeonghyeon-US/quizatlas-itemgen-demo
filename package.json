@@ -1,0 +1,29 @@
+{
+  "name": "quizatlas-itemgen-demo",
+  "version": "1.0.0",
+  "description": "QuizAtlas Item Generation Demo - For demonstration purposes only",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "tsx schema/demo-validate.ts",
+    "validate:samples": "npm run validate:single:en && npm run validate:single:ko && npm run validate:set:en && npm run validate:set:ko",
+    "validate:single:en": "tsx schema/demo-validate.ts samples/en/sample_single.json",
+    "validate:single:ko": "tsx schema/demo-validate.ts samples/ko/sample_single.json",
+    "validate:set:en": "tsx schema/demo-validate.ts samples/en/sample_set.json",
+    "validate:set:ko": "tsx schema/demo-validate.ts samples/ko/sample_set.json"
+  },
+  "keywords": [
+    "quizatlas",
+    "demo",
+    "assessment",
+    "item-generation"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5",
+    "zod": "^3.23.8"
+  }
+}

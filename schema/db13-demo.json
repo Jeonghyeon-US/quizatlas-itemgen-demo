@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QuizAtlas Demo Schema",
+  "description": "Simplified demo subset of DB13 schema - not for production use",
+  "oneOf": [
+    {
+      "$ref": "#/definitions/SingleItem"
+    },
+    {
+      "$ref": "#/definitions/SetItem"
+    }
+  ],
+  "definitions": {
+    "SingleItem": {
+      "type": "object",
+      "required": ["id", "type", "stem", "options", "answer", "explanation", "metadata"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier"
+        },
+        "type": {
+          "const": "single",
+          "description": "Item type"
+        },
+        "passage": {
+          "$ref": "#/definitions/Passage",
+          "description": "Optional reading passage"
+        },
+        "stem": {
+          "type": "string",
+          "description": "Question text"
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Option"
+          },
+          "minItems": 2,
+          "maxItems": 5
+        },
+        "answer": {
+          "type": "string",
+          "pattern": "^[A-E]$",
+          "description": "Correct answer key"
+        },
+        "explanation": {
+          "type": "string",
+          "description": "Solution explanation"
+        },
+        "metadata": {
+          "$ref": "#/definitions/Metadata"
+        }
+      },
+      "additionalProperties": false
+    },
+    "SetItem": {
+      "type": "object",
+      "required": ["id", "type", "passage", "questions", "metadata"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier"
+        },
+        "type": {
+          "const": "set",
+          "description": "Item type"
+        },
+        "passage": {
+          "$ref": "#/definitions/Passage",
+          "description": "Reading passage"
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Question"
+          },
+          "minItems": 2,
+          "maxItems": 6
+        },
+        "metadata": {
+          "$ref": "#/definitions/Metadata"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Passage": {
+      "type": "object",
+      "required": ["title", "text"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Passage title"
+        },
+        "text": {
+          "type": "string",
+          "description": "Passage content"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Question": {
+      "type": "object",
+      "required": ["stem", "options", "answer"],
+      "properties": {
+        "stem": {
+          "type": "string",
+          "description": "Question text"
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Option"
+          },
+          "minItems": 2,
+          "maxItems": 5
+        },
+        "answer": {
+          "type": "string",
+          "pattern": "^[A-E]$",
+          "description": "Correct answer key"
+        },
+        "explanation": {
+          "type": "string",
+          "description": "Solution explanation"
+        },
+        "metadata": {
+          "$ref": "#/definitions/Metadata"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Option": {
+      "type": "object",
+      "required": ["id", "text"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-E]$",
+          "description": "Option identifier"
+        },
+        "text": {
+          "type": "string",
+          "description": "Option text"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Metadata": {
+      "type": "object",
+      "required": ["difficulty", "bloom", "estimated_time_sec"],
+      "properties": {
+        "difficulty": {
+          "type": "string",
+          "enum": ["easy", "medium", "hard"],
+          "description": "Difficulty level"
+        },
+        "bloom": {
+          "type": "string",
+          "enum": ["remember", "understand", "apply", "analyze", "evaluate", "create"],
+          "description": "Bloom's taxonomy level"
+        },
+        "estimated_time_sec": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 600,
+          "description": "Estimated completion time in seconds"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
