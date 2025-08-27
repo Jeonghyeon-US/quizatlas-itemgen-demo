@@ -63,18 +63,18 @@ Synthetic passage about environmental processes...
 
 ## Quality Evaluation Framework
 
-**Mini-Metric for Generated Items**:
+**Validation Checklist for Generated Items**:
 
-| Validation Check | Sample Pass Rate | Description |
-|------------------|------------------|--------------|
-| ✅ Answer Consistency | 98% (49/50) | Correct answers match explanations |
-| ✅ Difficulty Tagging | 100% (50/50) | All items have valid difficulty levels |
-| ✅ Content-Question Link | 96% (48/50) | Questions relate to source material |
-| ✅ Language Quality | 94% (47/50) | No spelling/grammar errors |
-| ✅ Prohibited Content | 100% (50/50) | No inappropriate content detected |
-| ✅ JSON Validity | 100% (50/50) | Valid schema compliance |
+| Check Item | Description | Purpose |
+|------------|-------------|----------|
+| ✅ Answer Consistency | Verify correct answers match explanations | Quality assurance |
+| ✅ Difficulty Tagging | Ensure all items have valid difficulty levels | Content classification |
+| ✅ Content-Question Link | Check questions relate to source material | Relevance validation |
+| ✅ Language Quality | Review for spelling/grammar accuracy | Editorial standards |
+| ✅ Prohibited Content | Screen for inappropriate content | Safety compliance |
+| ✅ JSON Validity | Validate schema compliance | Technical standards |
 
-*Sample evaluation based on 50 generated items across multiple domains.*
+*Framework designed for systematic quality evaluation of generated assessment items.*
 
 ## Applications
 
@@ -93,7 +93,7 @@ Synthetic passage about environmental processes...
 
 All demonstration materials are proprietary. Generated samples are for evaluation purposes only and should not be used in actual educational assessments. 
 
-© 2025 QuizAtlas. All rights reserved. Use of this repository does not grant rights to underlying technologies or methodologies.
+© 2025 [Project Author]. All rights reserved. Use of this repository does not grant rights to underlying technologies or methodologies.
 
 ## Quick Start (Local Demo)
 
