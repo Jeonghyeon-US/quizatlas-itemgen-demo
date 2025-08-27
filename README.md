@@ -93,7 +93,7 @@ Synthetic passage about environmental processes...
 
 All demonstration materials are proprietary. Generated samples are for evaluation purposes only and should not be used in actual educational assessments. 
 
-© 2025 [Project Author]. All rights reserved. Use of this repository does not grant rights to underlying technologies or methodologies.
+© 2025 Jeonghyeon Lim. All rights reserved. Use of this repository does not grant rights to underlying technologies or methodologies.
 
 ## Quick Start (Local Demo)
 
