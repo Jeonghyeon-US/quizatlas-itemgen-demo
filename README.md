@@ -129,6 +129,24 @@ For complete implementation including:
 
 **📍 Contact through appropriate channels for partnership discussions**
 
+- quizatlas.project@gmail.com for details.
+
+---
+
+## About the Author
+I am an **undergraduate student in Elementary Education (English Education track)** with a strong interest in how AI can transform learning and assessment.  
+
+Although I am still a student, I have independently built:  
+- **DB13 schema**, a structured format for exam questions with rich metadata.  
+- **QuizAtlas**, a demo pipeline that converts Korea’s CSAT (수능) into structured datasets for AI training and educational research.  
+- **Item generation workflows** and validation tools for scalable dataset creation.  
+
+My goal is to bridge **educational expertise** and **practical AI applications**, showing how even students can create tools that researchers and companies may find valuable.
+
+
+---
+
+
 ## ⚠️ Important Notice
 
 **This repository is for DEMO and partnership discussions only**  

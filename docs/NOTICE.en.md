@@ -45,8 +45,7 @@ All demonstration materials are proprietary. Use of this repository does not gra
 
 ## Contact
 
-For partnership discussions regarding complete implementation, commercial licensing, or technical specifications, contact through appropriate channels.
-
+- quizatlas.project@gmail.com for details.
 ---
 
 **This is demonstration software only. Commercial capabilities available through partnership.**
